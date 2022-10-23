@@ -3,7 +3,7 @@ import Head from 'next/head';
 import NavBar from './NavBar';
 import Footer from './Footer';
 
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Head>
@@ -12,7 +12,7 @@ const Layout = () => {
       <header>
         <NavBar />
       </header>
-      <main className="main-container">EMPTY</main>
+      <main className="main-container">{children}</main>
       <Footer />
     </div>
   );
