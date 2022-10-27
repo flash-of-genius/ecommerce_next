@@ -1,9 +1,4 @@
-import React, {
-  createContext,
-  useContext,
-  useState,
-  useEffect,
-} from 'react-hot-toast';
+import React, { createContext, useContext, useState, useEffect } from 'react';
 
 import { toast } from 'react-hot-toast';
 
@@ -44,4 +39,4 @@ export const StateContext = ({ children }) => {
   );
 };
 
-export const useStateContext = () => useContext(context);
+export const useStateContext = () => useContext(Context);
