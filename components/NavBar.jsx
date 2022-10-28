@@ -13,8 +13,8 @@ const NavBar = () => {
         <Link href="/">JSM Headphones</Link>
       </p>
       <button
-        className="cart-icon"
         type="button"
+        className="cart-icon"
         onClick={() => setShowCart(true)}
       >
         <AiOutlineShopping />
