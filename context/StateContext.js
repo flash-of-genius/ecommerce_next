@@ -21,7 +21,7 @@ export const StateContext = ({ children }) => {
         (prevTotalPrice) => prevTotalPrice + product.price * quantity,
       );
       setTotalQuantities(
-        (prevtotalQuantities) => prevTotalQuantities + quantity,
+        (prevtotalQuantities) => prevtotalQuantities + quantity,
       );
 
       const updatedCartItems = cartItems.map((cartProduct) => {
